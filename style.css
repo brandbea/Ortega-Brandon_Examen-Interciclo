@@ -108,7 +108,62 @@ text-align: center
 .dos {display: inline-block;}
         
     }
+    @media screen and (min-width: 50rem){
+        .gran_titulo{height: 100%;
+        }
+        .gran_titulo--item{
+            
+            height: 100%;
+            width: 50%;
+            display: inline-block;
+            align-items: center;
+            
+        }
+        .gran_titulo--item h2{
+            margin-top: 7rem;
+            z-index: 3;
+            width: 10rem;
+           
     
+        }
+        
+        .gran_titulo--item p{
+            margin-top: -6rem;
+            margin-left: 15rem;
+            
+            
+        }
+    }
 
-
+    @media screen and ( min-width: 50rem ) {  
+        
+        .titulo_articulo--item{
+            
+            margin-top:  -18rem;
+            height:50%;
+            width: 50%;
+            display: inline-block;
+            margin-left: 50%;
+            
+        }
+        
+        .titulo_articulo--item h2{
+    
+         
+            z-index: 3;
+            width: 10rem;
+            
+            margin-left: 1rem;
+        }
+    
+        .titulo_articulo--item p{
+            margin-top: -6rem;
+            margin-left: 15rem;
+            
+            
+        } 
+    }
+    
+    
+    
         
